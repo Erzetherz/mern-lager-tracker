@@ -1,4 +1,4 @@
-// CRUD-Operationen für Items. Suche jetzt in name und ean.
+// CRUD-Operationen für Items. Suche in name und ean.
 import { Item } from "../models/Item.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 

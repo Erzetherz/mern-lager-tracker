@@ -16,7 +16,7 @@ export default function TransactionsPage() {
     note: ""
   });
 
-  // Suche (für Artikelliste im Formular)
+  // Suche für Artikelliste im Formular
   const [searchQ, setSearchQ] = useState("");
 
   // Filter für Tabelle (Autocomplete)

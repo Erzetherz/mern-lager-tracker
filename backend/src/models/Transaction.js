@@ -1,5 +1,5 @@
 // Transaktion = eine Lagerbewegung (Zugang/Entnahme) zu einem Item.
-// Neu: postQuantity speichert den Bestand NACH der Buchung.
+// postQuantity speichert den Bestand NACH der Buchung.
 
 import mongoose from "mongoose";
 
@@ -24,7 +24,7 @@ const transactionSchema = new mongoose.Schema(
     note: { type: String, trim: true },
     date: { type: Date, default: Date.now },
 
-    // Bestand des Artikels NACH dieser Bewegung
+    // Bestand des Artikels NACH der Bewegung
     postQuantity: {
       type: Number,
       min: [0, "Bestand darf nicht negativ sein"],

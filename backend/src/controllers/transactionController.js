@@ -48,7 +48,7 @@ export const createTransaction = asyncHandler(async (req, res) => {
       throw new Error("Artikel nicht gefunden");
     }
   } else {
-    // remove: nur wenn genug Bestand vorhanden ist (atomar)
+    // remove: nur wenn genug Bestand vorhanden ist
     updatedItem = await Item.findOneAndUpdate(
       { _id: itemId, quantity: { $gte: qty } },
       { $inc: { quantity: -qty } },
