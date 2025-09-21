@@ -3,8 +3,8 @@
 Eine einfache, praxistaugliche Lagerverwaltung für kleine Bestände.  
 Technik: **MongoDB Atlas, Express.js, React (Vite), Node.js**.  
 
-- **Live-Demo (Frontend):** _Vercel-URL einsetzen_  
-- **Backend:** _Render-URL einsetzen_
+- **Live-Demo (Frontend):** https://mern-lager-tracker-cb0d6nvze-adrians-projects-bb29b229.vercel.app/
+- **Backend:** https://lager-tracker-backend.onrender.com
 
 ---
 
